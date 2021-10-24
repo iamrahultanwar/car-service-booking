@@ -1,0 +1,67 @@
+name: autoflipz_user_app
+description: A new Flutter application.
+
+version: 1.0.0+7
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  intro_slider:
+  carousel_slider:
+  flutter_statusbarcolor:
+  http:
+  flappy_search_bar:
+  transparent_image:
+  shared_preferences:
+  toast:
+  flutter_datetime_picker: ^1.4.0
+  intl:
+  razorpay_flutter: ^1.2.2
+  timeline_list:
+  marquee:
+  device_preview:
+  cached_network_image:
+  flutter_staggered_grid_view:
+  cache_image:
+  expandable:
+  url_launcher: ^5.5.2
+  flutter_wordpress:
+  flutter_webview_plugin:
+  flutter_launcher_icons:
+  responsive_framework:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_automation:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_icons:
+  android: true
+  image_path: "assets/logo/autoflipz_app_logo.png"
+
+  fonts:
+    - family: Sen
+      fonts:
+        - asset: assets/fonts/Sen-Regular.ttf
+        - asset: assets/fonts/Sen-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Sen-ExtraBold.ttf
+          weight: 900
+    - family: Archia
+      fonts:
+        - asset: assets/fonts/archia-regular-webfont.ttf
+        - asset: assets/fonts/archia-semibold-webfont.ttf
+          weight: 700
+        - asset: assets/fonts/archia-bold-webfont.ttf
+          weight: 900

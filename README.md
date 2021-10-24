@@ -1,6 +1,3 @@
-# AutoFlipz
+# Car Service Booking App
 
-Autoflipz User  Flutter application.
-
-
-
+A simple car service booking app. Backend is written in nodejs.
